@@ -1,0 +1,13 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to /Users/khalid/dev/code/inscape_etl_v2/target/scala-2.13/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mNon-compiled module 'compiler-bridge_2.13' for Scala 2.13.8. Compiling...[0m
+[0m[[0m[0minfo[0m] [0m[0m  Compilation completed in 6.904s.[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/khalid/dev/code/inscape_etl_v2/src/main/scala/tv/sixzerofive/RunnablePipeline.scala:16:26: value flatMap is not a member of type parameter F[org.apache.spark.sql.DataFrame][0m
+[0m[[0m[31merror[0m] [0m[0m      extract ← MyExtract()[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 9 s, completed Jun 15, 2022, 9:35:01 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m
